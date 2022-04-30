@@ -2,13 +2,7 @@ from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from django.contrib.auth.models import User as auth_user
 from django.shortcuts import render, get_object_or_404
-from rest_framework.views import APIView
-from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
-from rest_framework import authentication, permissions
-from rest_framework.authtoken.views import ObtainAuthToken
-from rest_framework.authentication import TokenAuthentication
-from rest_framework.permissions import IsAuthenticated
 from .forms import UserModelForm
 from .forms import RegisterForm
 from .models import UserProfile

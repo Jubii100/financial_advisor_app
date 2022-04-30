@@ -19,38 +19,6 @@ from django.views.generic import (
 )
 
 
-class UserCreateAPI(ObtainAuthToken):
-
-    def post(self, request, *args, **kwargs):
-        user_creditentials = request.data
-
-        user = auth_user.objects.create_user(username=user_creditentials["username"],
-                                             password=user_creditentials["password"])
-        user.save()
-        token, created = Token.objects.get_or_create(user=user)
-        return Response({
-            'token': token.key,
-            'username': user.username
-        })
-
-
-class UserProfileUpdateAPI(APIView):
-    authentication_classes = [TokenAuthentication]
-    permission_classes = [IsAuthenticated]
-
-    def post(self, request, *args, **kwargs):
-        profile_info = request.data
-        profile, created = UserProfile.objects.update_or_create(name=profile_info["name"],
-                                                                #    interests=profile_info["interests"],
-                                                                #    hobbies=profile_info["hobbies"],
-                                                                age=profile_info["age"],
-                                                                gender=profile_info["gender"],
-                                                                net_worth=profile_info["net_worth"],
-                                                                user=request.user)
-        profile.save()
-        return Response('profile updated')
-
-
 class UserCreateView(CreateView):
     template_name = 'users/user_create.html'
     form_class = RegisterForm

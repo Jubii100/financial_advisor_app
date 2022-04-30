@@ -22,13 +22,14 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('login/', auth_views.LoginView.as_view(
-        template_name='registration/login.html'),
-        name="login"
-    ),
+    path('login/', auth_views.LoginView.as_view()  # ,
+         # name="login"
+         ),
     path('logout/', auth_views.LogoutView.as_view(),
          name="logout"
          ),
-    #path('logout/', auth_views.LogoutView.as_view())
+    # path('logout/', auth_views.LogoutView.as_view())
     path('users/', include(('users.urls', 'users'), namespace='users')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+# template_name='registration/login.html'),

@@ -1,8 +1,7 @@
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from django.contrib.auth.models import User as auth_user
-from django.shortcuts import render, get_object_or_404
-from rest_framework.response import Response
+from django.shortcuts import get_object_or_404
 from .forms import UserModelForm
 from .forms import RegisterForm
 from .models import UserProfile

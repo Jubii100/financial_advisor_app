@@ -31,8 +31,8 @@ class UserProfileUpdateAPI(APIView):
     def post(self, request, *args, **kwargs):
         profile_info = request.data
         profile, created = UserProfile.objects.update_or_create(name=profile_info["name"],
-                                                                #    interests=profile_info["interests"],
-                                                                #    hobbies=profile_info["hobbies"],
+                                                                interests=profile_info["interests"],
+                                                                hobbies=profile_info["hobbies"],
                                                                 age=profile_info["age"],
                                                                 gender=profile_info["gender"],
                                                                 net_worth=profile_info["net_worth"],

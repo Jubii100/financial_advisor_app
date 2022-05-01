@@ -1,5 +1,5 @@
 from django.contrib.auth.models import User
-from .models import UserProfile
+from .models import UserProfile, UserBudget
 from rest_framework import serializers
 
 
@@ -14,3 +14,10 @@ class UserProfileSerializer(serializers.ModelSerializer):
         model = UserProfile
         fields = ['user', 'name', 'interests',
                   'hobbies', 'age', 'gender', 'net_worth']
+
+
+class UserBudgetSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserBudget
+        fields = ['budget', 'created', 'modified',
+                  'is_active']

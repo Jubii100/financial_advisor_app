@@ -29,7 +29,7 @@ urlpatterns = [
          name="logout"
          ),
     # path('logout/', auth_views.LogoutView.as_view())
-    path('users/', include(('users.urls', 'users'), namespace='users')),
+    path('user/', include(('users.urls', 'users'), namespace='user')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # template_name='registration/login.html'),

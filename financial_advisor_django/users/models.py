@@ -4,6 +4,7 @@ from django.db.models.signals import post_save
 from django.contrib.postgres.fields import ArrayField
 from django.db import models
 from django.conf import settings
+from behaviors.behaviors import StoreDeleted, Timestamped
 
 auth_user = settings.AUTH_USER_MODEL
 
@@ -14,7 +15,7 @@ def create_auth_token(sender, instance=None, created=False, **kwargs):
         Token.objects.create(user=instance)
 
 
-class UserProfile(models.Model):
+class UserProfile(StoreDeleted):
     user = models.OneToOneField(
         auth_user,
         on_delete=models.CASCADE,
@@ -31,6 +32,18 @@ class UserProfile(models.Model):
     age = models.PositiveIntegerField()
     gender = models.CharField(max_length=10)
     net_worth = models.FloatField()
+
+    def __str__(self):
+        return self.user.username
+
+
+class UserBudget(StoreDeleted, Timestamped):
+    user = models.OneToOneField(
+        auth_user,
+        on_delete=models.CASCADE,
+    )
+    is_active = models.BooleanField(default=True)
+    budget = models.PositiveIntegerField()
 
     def __str__(self):
         return self.user.username

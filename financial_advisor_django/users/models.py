@@ -15,10 +15,10 @@ def create_auth_token(sender, instance=None, created=False, **kwargs):
         Token.objects.create(user=instance)
 
 
-class UserProfile(StoreDeleted):
+class UserProfile(models.Model):
     user = models.OneToOneField(
         auth_user,
-        on_delete=models.CASCADE,
+        on_delete=models.CASCADE, related_name='profile'
     )
     name = models.CharField(max_length=128)
     interests = ArrayField(
@@ -32,15 +32,16 @@ class UserProfile(StoreDeleted):
     age = models.PositiveIntegerField()
     gender = models.CharField(max_length=10)
     net_worth = models.FloatField()
+    advisor = models.BooleanField(default=False)
 
     def __str__(self):
         return self.user.username
 
 
-class UserBudget(StoreDeleted, Timestamped):
+class UserBudget(Timestamped):
     user = models.OneToOneField(
         auth_user,
-        on_delete=models.CASCADE,
+        on_delete=models.CASCADE, related_name='budget'
     )
     is_active = models.BooleanField(default=True)
     budget = models.PositiveIntegerField()

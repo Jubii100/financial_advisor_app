@@ -3,21 +3,32 @@ from .models import UserProfile, UserBudget
 from rest_framework import serializers
 
 
-class UserSerializer(serializers.ModelSerializer):
+class DynamicFieldsModelSerializer(serializers.ModelSerializer):
+    def __init__(self, *args, **kwargs):
+        fields = kwargs.pop('fields', None)
+
+        super(DynamicFieldsModelSerializer, self).__init__(*args, **kwargs)
+
+        if fields is not None:
+            allowed = set(fields)
+            existing = set(self.fields.keys())
+            for field_name in existing - allowed:
+                self.fields.pop(field_name)
+
+
+class UserSerializer(DynamicFieldsModelSerializer):
     class Meta:
         model = User
-        fields = ['username', 'email', 'groups']
+        fields = '__all__'
 
 
-class UserProfileSerializer(serializers.ModelSerializer):
+class UserProfileSerializer(DynamicFieldsModelSerializer):
     class Meta:
         model = UserProfile
-        fields = ['user', 'name', 'interests',
-                  'hobbies', 'age', 'gender', 'net_worth']
+        fields = '__all__'
 
 
-class UserBudgetSerializer(serializers.ModelSerializer):
+class UserBudgetSerializer(DynamicFieldsModelSerializer):
     class Meta:
         model = UserBudget
-        fields = ['budget', 'created', 'modified',
-                  'is_active']
+        fields = '__all__'

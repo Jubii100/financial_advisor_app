@@ -1,14 +1,19 @@
 from django.contrib.auth.models import User as auth_user
+from django.shortcuts import get_object_or_404
 from rest_framework.views import APIView
+from rest_framework.generics import GenericAPIView, ListAPIView
 from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
 from rest_framework import authentication, permissions
+from rest_framework.mixins import ListModelMixin, RetrieveModelMixin
 from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from .models import UserProfile, UserBudget
 from .serializers import UserSerializer, UserProfileSerializer, UserBudgetSerializer
+from .permissions import AdviserPermission
 from rest_framework.renderers import JSONRenderer
+from django.http import JsonResponse
 
 
 class UserCreateAPI(ObtainAuthToken):
@@ -16,8 +21,8 @@ class UserCreateAPI(ObtainAuthToken):
     def post(self, request, *args, **kwargs):
         user_creditentials = request.data
 
-        user = auth_user.objects.create_user(username=user_creditentials["username"],
-                                             password=user_creditentials["password"])
+        user = auth_user.objects.create_user(
+            username=user_creditentials["username"], password=user_creditentials["password"])
         user.save()
         token, created = Token.objects.get_or_create(user=user)
         return Response({
@@ -43,6 +48,7 @@ class UserProfileUpdateAPI(APIView):
                 "net_worth": profile_info["net_worth"]}
         )
         profile.save()
+
         return Response({
             "status": "200",
         })
@@ -82,31 +88,46 @@ class UserBudgetAPI(APIView):
         })
 
 
-class UserBudgetRetrieveAPI(APIView):
+class TopTenUsersAPI(GenericAPIView, ListModelMixin):
     authentication_classes = [TokenAuthentication]
-    permission_classes = [IsAdminUser]
+    permission_classes = [IsAuthenticated]
 
-    def post(self, request, *args, **kwargs):
-        user_name = request.data["username"]
-        retrieved_object = UserBudget.objects(user=user_name)
-        if retrieved_object.deleted:
-            retrieved_object.restore()
-            return Response({
-                "status": "200",
-                "message": "instance restored"
-            })
+    def get_serializer(self, *args, **kwargs):
+        serializer_class = self.get_serializer_class()
+        kwargs['context'] = self.get_serializer_context()
+        kwargs['fields'] = self.fields
+
+        return serializer_class(*args, **kwargs)
+
+    def get(self, request, *args, **kwargs):
+        self.user = request.user
+
+        if kwargs.get('mk') == 'profiles':
+            self.serializer_class = UserProfileSerializer
+            model = UserProfile
+            self.fields = ['name', 'net_worth', 'age']
+        elif kwargs.get('mk') == 'budgets':
+            self.serializer_class = UserBudgetSerializer
+            model = UserBudget
+            self.fields = ['budget', 'modified']
         else:
-            retrieved_object.delete()
-            return Response({
-                "message": "instance already restored",
-            })
-
-
-class UserAdminAPI(APIView):
-    def delete(self, request, *args, **kwargs):
-        user = auth_user.objects.get(username=request.data["username"])
-        user.delete()
-        return Response({
-            "status": "200",
-            "message": "User deleted",
-        })
+            pass
+        # still works when using only kwargs instead of self.kwargs but not work outside of the get method
+        start = self.kwargs.get('sk')
+        end = self.kwargs.get('ek')
+        if not(start and end):
+            self.queryset = model.objects.filter(
+                user__in=auth_user.objects.order_by('budget__budget'))[:4]
+        else:
+            filters = {}
+            filters['budget__budget__gte'] = start
+            filters['budget__budget__lte'] = end
+            self.queryset = model.objects.filter(
+                user__in=auth_user.objects.filter(**filters))
+        if AdviserPermission().has_permission(self, request):
+            return self.list(request, *args, **kwargs)
+        else:
+            query = model.objects.filter(user=request.user)
+            serializer = self.get_serializer(query, many=True)
+            #self.serializer_class(query, fields=self.fields)
+            return JsonResponse(serializer.data, safe=False)

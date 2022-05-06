@@ -1,0 +1,67 @@
+DEBUG 2022-05-06 11:01:36,435 utils (0.000) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+DEBUG 2022-05-06 11:01:36,441 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-06 11:01:45,348 utils (0.000) SELECT "authtoken_token"."key", "authtoken_token"."user_id", "authtoken_token"."created", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "authtoken_token" INNER JOIN "auth_user" ON ("authtoken_token"."user_id" = "auth_user"."id") WHERE "authtoken_token"."key" = 'f10d9bdbb1f8ecc7278a7354c847b81d70beecf5' LIMIT 21; args=('f10d9bdbb1f8ecc7278a7354c847b81d70beecf5',); alias=default
+DEBUG 2022-05-06 11:01:45,357 utils (0.000) SELECT "users_userprofile"."id", "users_userprofile"."user_id", "users_userprofile"."name", "users_userprofile"."interests", "users_userprofile"."hobbies", "users_userprofile"."age", "users_userprofile"."gender", "users_userprofile"."net_worth", "users_userprofile"."advisor" FROM "users_userprofile" WHERE "users_userprofile"."user_id" = 32 LIMIT 21 FOR UPDATE; args=(32,); alias=default
+DEBUG 2022-05-06 11:01:45,358 utils (0.015) UPDATE "users_userprofile" SET "user_id" = 32, "name" = 'randy', "interests" = ARRAY['philosophy','psychology','anthropology']::varchar(128)[5], "hobbies" = ARRAY['ice skating','rock climbing']::varchar(128)[5], "age" = 34, "gender" = 'male', "net_worth" = 250000.0, "advisor" = false WHERE "users_userprofile"."id" = 34; args=(32, 'randy', ['philosophy', 'psychology', 'anthropology'], ['ice skating', 'rock climbing'], 34, 'male', 250000.0, False, 34); alias=default
+DEBUG 2022-05-06 11:01:45,360 utils (0.000) UPDATE "users_userprofile" SET "user_id" = 32, "name" = 'randy', "interests" = ARRAY['philosophy','psychology','anthropology']::varchar(128)[5], "hobbies" = ARRAY['ice skating','rock climbing']::varchar(128)[5], "age" = 34, "gender" = 'male', "net_worth" = 250000.0, "advisor" = false WHERE "users_userprofile"."id" = 34; args=(32, 'randy', ['philosophy', 'psychology', 'anthropology'], ['ice skating', 'rock climbing'], 34, 'male', 250000.0, False, 34); alias=default
+DEBUG 2022-05-06 11:05:10,859 utils (0.015) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+DEBUG 2022-05-06 11:05:10,862 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-06 11:09:12,181 utils (0.000) SELECT "authtoken_token"."key", "authtoken_token"."user_id", "authtoken_token"."created", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "authtoken_token" INNER JOIN "auth_user" ON ("authtoken_token"."user_id" = "auth_user"."id") WHERE "authtoken_token"."key" = 'f10d9bdbb1f8ecc7278a7354c847b81d70beecf5' LIMIT 21; args=('f10d9bdbb1f8ecc7278a7354c847b81d70beecf5',); alias=default
+DEBUG 2022-05-06 11:09:12,183 utils (0.000) SELECT (1) AS "a" FROM "users_userprofile" WHERE ("users_userprofile"."advisor" AND "users_userprofile"."user_id" = 32) LIMIT 1; args=(32,); alias=default
+DEBUG 2022-05-06 11:09:12,185 utils (0.000) SELECT "users_userbudget"."id", "users_userbudget"."created", "users_userbudget"."modified", "users_userbudget"."user_id", "users_userbudget"."is_active", "users_userbudget"."amount" FROM "users_userbudget" WHERE "users_userbudget"."user_id" = 32; args=(32,); alias=default
+DEBUG 2022-05-06 11:36:53,628 utils (0.016) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+DEBUG 2022-05-06 11:36:53,635 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-06 11:37:42,820 utils (0.000) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+DEBUG 2022-05-06 11:37:42,824 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-06 11:37:57,432 utils (0.000) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+DEBUG 2022-05-06 11:37:57,438 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+DEBUG 2022-05-06 11:38:24,441 utils (0.000) 
+            SELECT c.relname,
+            CASE WHEN c.relispartition THEN 'p' WHEN c.relkind IN ('m', 'v') THEN 'v' ELSE 't' END
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+DEBUG 2022-05-06 11:38:24,445 utils (0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default

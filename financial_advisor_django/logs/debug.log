@@ -1,0 +1,13 @@
+INFO 2022-05-06 11:01:35,592 autoreload 15388 23680 Watching for file changes with StatReloader
+INFO 2022-05-06 11:01:45,361 basehttp 15388 1572 "POST /user/profile/ HTTP/1.1" 200 16
+INFO 2022-05-06 11:05:09,685 autoreload 15388 23680 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\financial_advisor_django\settings.py changed, reloading.
+INFO 2022-05-06 11:05:10,451 autoreload 1256 12084 Watching for file changes with StatReloader
+INFO 2022-05-06 11:09:12,188 basehttp 1256 11844 "GET /user/financial_data/budgets/ HTTP/1.1" 200 62
+INFO 2022-05-06 11:36:52,000 autoreload 1256 12084 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\financial_advisor_django\settings.py changed, reloading.
+INFO 2022-05-06 11:36:52,862 autoreload 24492 19096 Watching for file changes with StatReloader
+INFO 2022-05-06 11:37:41,670 autoreload 24492 19096 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-06 11:37:42,414 autoreload 14236 10752 Watching for file changes with StatReloader
+INFO 2022-05-06 11:37:55,963 autoreload 14236 10752 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-06 11:37:56,722 autoreload 3568 20280 Watching for file changes with StatReloader
+INFO 2022-05-06 11:38:23,315 autoreload 3568 20280 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-06 11:38:24,038 autoreload 18168 2536 Watching for file changes with StatReloader

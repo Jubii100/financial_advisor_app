@@ -1448,3 +1448,150 @@ INFO 2022-05-08 10:26:20,201 basehttp 16032 7284 "POST /admin/users/userprofile/
 INFO 2022-05-08 10:26:20,410 basehttp 16032 7284 "GET /admin/users/userprofile/ HTTP/1.1" 200 9240
 INFO 2022-05-08 10:26:20,459 basehttp 16032 7284 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 INFO 2022-05-08 10:26:24,910 basehttp 16032 19472 "GET /user/financial_data/top10/ HTTP/1.1" 200 897
+INFO 2022-05-08 20:43:19,682 autoreload 2632 4644 Watching for file changes with StatReloader
+INFO 2022-05-08 20:43:38,498 basehttp 2632 15512 "POST /user/financial_data/range/ HTTP/1.1" 200 92
+INFO 2022-05-08 20:43:52,733 basehttp 2632 15512 "POST /user/financial_data/range/ HTTP/1.1" 200 92
+INFO 2022-05-08 20:44:01,937 basehttp 2632 13272 "GET /admin/ HTTP/1.1" 200 7896
+INFO 2022-05-08 20:44:02,009 basehttp 2632 13272 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2022-05-08 20:44:02,036 basehttp 2632 13272 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2022-05-08 20:44:02,037 basehttp 2632 1912 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2022-05-08 20:44:02,146 basehttp 2632 13272 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2022-05-08 20:44:02,163 basehttp 2632 18324 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2022-05-08 20:44:02,169 basehttp 2632 1912 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+WARNING 2022-05-08 20:44:02,315 log 2632 1912 Not Found: /favicon.ico
+WARNING 2022-05-08 20:44:02,318 basehttp 2632 1912 "GET /favicon.ico HTTP/1.1" 404 2853
+INFO 2022-05-08 20:44:11,249 basehttp 2632 1912 "GET /admin/auth/user/ HTTP/1.1" 200 13221
+INFO 2022-05-08 20:44:11,282 basehttp 2632 18324 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2022-05-08 20:44:11,287 basehttp 2632 13272 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2022-05-08 20:44:11,289 basehttp 2632 18324 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2022-05-08 20:44:11,290 basehttp 2632 2040 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2022-05-08 20:44:11,292 basehttp 2632 13272 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2022-05-08 20:44:11,300 basehttp 2632 1912 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+INFO 2022-05-08 20:44:11,301 basehttp 2632 13216 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2022-05-08 20:44:11,322 basehttp 2632 20860 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 20:44:11,327 basehttp 2632 20860 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2022-05-08 20:44:11,328 basehttp 2632 2040 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2022-05-08 20:44:11,341 basehttp 2632 2040 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2022-05-08 20:44:15,064 basehttp 2632 2040 "GET /admin/users/userprofile/ HTTP/1.1" 200 9032
+INFO 2022-05-08 20:44:15,110 basehttp 2632 2040 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 20:44:20,369 basehttp 2632 2040 "GET /admin/users/userprofile/34/change/ HTTP/1.1" 200 11206
+INFO 2022-05-08 20:44:20,416 basehttp 2632 2040 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 20:44:23,106 basehttp 2632 2040 "GET /admin/users/userprofile/ HTTP/1.1" 200 9032
+INFO 2022-05-08 20:44:24,889 basehttp 2632 2040 "GET /admin/users/userprofile/34/change/ HTTP/1.1" 200 11206
+INFO 2022-05-08 20:44:24,933 basehttp 2632 2040 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 20:44:41,831 basehttp 2632 2040 "GET /admin/users/userprofile/ HTTP/1.1" 200 9032
+INFO 2022-05-08 20:44:44,141 basehttp 2632 2040 "GET /admin/users/userprofile/31/change/ HTTP/1.1" 200 11191
+INFO 2022-05-08 20:44:44,186 basehttp 2632 2040 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 20:44:51,488 basehttp 2632 2040 "POST /admin/users/userprofile/31/change/ HTTP/1.1" 302 0
+INFO 2022-05-08 20:44:51,574 basehttp 2632 2040 "GET /admin/users/userprofile/ HTTP/1.1" 200 9241
+INFO 2022-05-08 20:44:51,618 basehttp 2632 2040 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2022-05-08 20:44:58,915 log 2632 15512 Bad Request: /user/financial_data/range/
+WARNING 2022-05-08 20:44:58,915 basehttp 2632 15512 "POST /user/financial_data/range/ HTTP/1.1" 400 108
+ERROR 2022-05-08 20:45:21,852 log 2632 15512 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 187, in post
+    max = range_info["max"]
+KeyError: 'max'
+ERROR 2022-05-08 20:45:21,853 basehttp 2632 15512 "POST /user/financial_data/range/ HTTP/1.1" 500 92396
+INFO 2022-05-08 20:46:54,780 autoreload 2632 4644 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 20:46:55,653 autoreload 2496 16336 Watching for file changes with StatReloader
+ERROR 2022-05-08 20:46:57,537 log 2496 12284 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 197, in post
+    if max:
+UnboundLocalError: local variable 'max' referenced before assignment
+ERROR 2022-05-08 20:46:57,539 basehttp 2496 12284 "POST /user/financial_data/range/ HTTP/1.1" 500 92865
+INFO 2022-05-08 20:50:01,459 autoreload 2496 16336 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 20:50:02,165 autoreload 9188 9428 Watching for file changes with StatReloader
+ERROR 2022-05-08 20:50:08,407 log 9188 9132 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 194, in post
+    if range_info["max"]:
+KeyError: 'max'
+ERROR 2022-05-08 20:50:08,408 basehttp 9188 9132 "POST /user/financial_data/range/ HTTP/1.1" 500 92486
+INFO 2022-05-08 20:51:49,476 autoreload 9188 9428 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 20:51:50,213 autoreload 12772 9140 Watching for file changes with StatReloader
+ERROR 2022-05-08 20:51:51,342 log 12772 9792 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 187, in post
+    max = range_info["max"] or None
+KeyError: 'max'
+ERROR 2022-05-08 20:51:51,344 basehttp 12772 9792 "POST /user/financial_data/range/ HTTP/1.1" 500 92420
+INFO 2022-05-08 20:53:57,367 autoreload 12772 9140 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 20:53:58,143 autoreload 16044 15320 Watching for file changes with StatReloader
+INFO 2022-05-08 20:53:59,321 basehttp 16044 8288 "POST /user/financial_data/range/ HTTP/1.1" 200 988
+INFO 2022-05-08 20:54:37,488 basehttp 16044 8288 "POST /user/financial_data/range/ HTTP/1.1" 200 802
+INFO 2022-05-08 20:54:55,805 basehttp 16044 8288 "POST /user/financial_data/range/ HTTP/1.1" 200 184
+INFO 2022-05-08 20:55:53,085 basehttp 16044 8288 "POST /user/financial_data/range/ HTTP/1.1" 200 45
+WARNING 2022-05-08 20:56:10,368 log 16044 8288 Method Not Allowed: /user/financial_data/range/
+WARNING 2022-05-08 20:56:10,368 basehttp 16044 8288 "GET /user/financial_data/range/ HTTP/1.1" 405 40
+INFO 2022-05-08 20:56:50,928 autoreload 16044 15320 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 20:56:51,647 autoreload 18348 8820 Watching for file changes with StatReloader
+INFO 2022-05-08 20:57:38,239 autoreload 18348 8820 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 20:57:38,971 autoreload 7584 6884 Watching for file changes with StatReloader
+INFO 2022-05-08 20:57:53,284 autoreload 7584 6884 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 20:57:54,049 autoreload 19364 6900 Watching for file changes with StatReloader

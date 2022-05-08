@@ -998,3 +998,90 @@ Traceback (most recent call last):
     raise FieldError("Cannot resolve keyword '%s' into field. "
 django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: auth_token, budget, date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, password, profile, user_permissions, username
 2022-05-08 10:24:24,775 Unauthorized: /user/financial_data/top10/
+2022-05-08 20:44:02,315 Not Found: /favicon.ico
+2022-05-08 20:44:58,915 Bad Request: /user/financial_data/range/
+2022-05-08 20:45:21,852 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 187, in post
+    max = range_info["max"]
+KeyError: 'max'
+2022-05-08 20:46:57,537 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 197, in post
+    if max:
+UnboundLocalError: local variable 'max' referenced before assignment
+2022-05-08 20:50:08,407 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 194, in post
+    if range_info["max"]:
+KeyError: 'max'
+2022-05-08 20:51:51,342 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 187, in post
+    max = range_info["max"] or None
+KeyError: 'max'
+2022-05-08 20:56:10,368 Method Not Allowed: /user/financial_data/range/

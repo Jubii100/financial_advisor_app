@@ -61,8 +61,10 @@ class ExternalAPI(APIView):
         r = requests.get(
             'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo')
         r_status = r.status_code
+
         if r_status == 200:
             response = r.json()
+
         else:
             response['status'] = r.status_code
             response['message'] = 'error'
@@ -183,15 +185,40 @@ class BudgetRangeAPI(GenericAPIView, ListModelMixin):
         if AdviserPermission().has_permission(self, request):
 
             range_info = request.data
-            min = range_info["min"]
-            max = range_info["max"]
+
+            try:
+                min = range_info["min"]
+            except:
+                min = None
+            try:
+                max = range_info["max"]
+            except:
+                max = None
+
             filters = {}
-            filters['budget__amount__gte'] = min
-            filters['budget__amount__lte'] = max
-            self.queryset = auth_user.objects.all().select_related(
-                'profile', 'budget').filter(**filters)
+
+            if min:
+
+                filters['budget__amount__gte'] = min
+
+            if max:
+
+                filters['budget__amount__lte'] = max
+
+            if filters:
+
+                self.queryset = auth_user.objects.all().select_related(
+                    'profile', 'budget').filter(**filters)
+
+            else:
+
+                return Response({
+                    "status": "200",
+                    "message": "No range applied"
+                })
 
             return self.list(request, *args, **kwargs)
+
         else:
 
             self.queryset = auth_user.objects.filter(

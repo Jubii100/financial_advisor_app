@@ -1,0 +1,1000 @@
+2022-05-07 11:40:17,739 Not Found: /favicon.ico
+2022-05-07 12:58:14,973 Not Found: /favicon.ico
+2022-05-07 13:09:54,126 Unauthorized: /user/logout/
+2022-05-07 13:10:36,654 Unauthorized: /user/logout/
+2022-05-07 13:10:59,696 Unauthorized: /user/external/
+2022-05-07 13:11:08,711 Unauthorized: /user/financial_data/budgets/800/1800/
+2022-05-08 07:15:00,975 Unauthorized: /user/financial_data/range/
+2022-05-08 07:15:18,015 Not Found: /admin
+2022-05-08 07:15:49,172 Method Not Allowed: /user/financial_data/range/
+2022-05-08 07:17:56,154 Method Not Allowed: /user/financial_data/range/
+2022-05-08 07:18:37,637 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2022-05-08 07:24:07,274 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'amount'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 218, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `amount` on serializer `UserBudgetSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'amount'.
+2022-05-08 07:24:59,418 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'amount'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `amount` on serializer `UserBudgetSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'amount'.
+2022-05-08 07:27:01,466 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'amount'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `amount` on serializer `UserBudgetSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'amount'.
+2022-05-08 07:29:26,857 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 218, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `password` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'password'.
+2022-05-08 07:37:07,544 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `password` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'password'.
+2022-05-08 07:38:00,736 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `password` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'password'.
+2022-05-08 07:38:37,754 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'function' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `password` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `method` instance.
+Original exception text was: 'function' object has no attribute 'password'.
+2022-05-08 07:42:19,413 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `password` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'password'.
+2022-05-08 07:43:04,927 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `UserProfileSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+2022-05-08 07:59:00,219 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'tuple' object has no attribute 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `username` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `tuple` instance.
+Original exception text was: 'tuple' object has no attribute 'username'.
+2022-05-08 08:00:53,342 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'tuple' object has no attribute 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `username` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `tuple` instance.
+Original exception text was: 'tuple' object has no attribute 'username'.
+2022-05-08 08:04:02,393 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'tuple' object has no attribute 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `username` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `tuple` instance.
+Original exception text was: 'tuple' object has no attribute 'username'.
+2022-05-08 08:58:40,383 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    serializer = UserSerializer(
+TypeError: UserSerializer() takes no arguments
+2022-05-08 08:59:32,699 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `profile` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'profile'.
+2022-05-08 09:00:16,223 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `profile` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'profile'.
+2022-05-08 09:01:31,888 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `profile` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'profile'.
+2022-05-08 09:06:52,010 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    serializer = UserSerializer(
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 122, in __new__
+    return cls.many_init(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 149, in many_init
+    child_serializer = cls(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 116, in __init__
+    super().__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'fields'
+2022-05-08 09:22:43,303 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `profile` on serializer `UserSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'profile'."
+2022-05-08 09:23:43,131 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `profile` on serializer `UserSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'profile'."
+2022-05-08 09:23:44,860 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `profile` on serializer `UserSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'profile'."
+2022-05-08 09:24:15,367 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `profile` on serializer `UserSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'profile'."
+2022-05-08 09:24:16,574 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `profile` on serializer `UserSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'profile'."
+2022-05-08 09:24:32,829 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `profile` on serializer `UserSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'profile'."
+2022-05-08 10:07:37,580 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 216, in post
+    if AdviserPermission().has_permission(self, request):
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\permissions.py", line 8, in has_permission
+    user=request.user, advisor=True).exists()
+AttributeError: 'BudgetRangeAPI' object has no attribute 'user'
+2022-05-08 10:11:57,897 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 231, in post
+    self.queryset = auth_user.objects.filter(
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\query.py", line 974, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\query.py", line 992, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\query.py", line 999, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\sql\query.py", line 1375, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\sql\query.py", line 1396, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\sql\query.py", line 1271, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\sql\query.py", line 1099, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\sql\query.py", line 1522, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: auth_token, budget, date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, password, profile, user_permissions, username
+2022-05-08 10:24:24,775 Unauthorized: /user/financial_data/top10/

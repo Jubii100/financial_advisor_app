@@ -16,12 +16,6 @@ class DynamicFieldsModelSerializer(serializers.ModelSerializer):
                 self.fields.pop(field_name)
 
 
-class UserSerializer(DynamicFieldsModelSerializer):
-    class Meta:
-        model = User
-        fields = '__all__'
-
-
 class UserProfileSerializer(DynamicFieldsModelSerializer):
     class Meta:
         model = UserProfile
@@ -31,4 +25,14 @@ class UserProfileSerializer(DynamicFieldsModelSerializer):
 class UserBudgetSerializer(DynamicFieldsModelSerializer):
     class Meta:
         model = UserBudget
+        fields = '__all__'
+
+
+class UserSerializer(DynamicFieldsModelSerializer):
+    budget = UserBudgetSerializer(many=False, fields=['amount'])
+    profile = UserProfileSerializer(
+        many=False, fields=['name', 'net_worth'])
+
+    class Meta:
+        model = User
         fields = '__all__'

@@ -9,7 +9,7 @@ from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 from .models import UserProfile, UserBudget
-from .serializers import UserProfileSerializer, UserBudgetSerializer
+from .serializers import UserProfileSerializer, UserBudgetSerializer, UserSerializer
 from .permissions import AdviserPermission
 from django.http import JsonResponse
 
@@ -144,53 +144,57 @@ class TopTenUsersAPI(GenericAPIView, ListModelMixin):
     permission_classes = [IsAuthenticated]
 
     def get_serializer(self, *args, **kwargs):
-        serializer_class = self.get_serializer_class()
-        kwargs['context'] = self.get_serializer_context()
-        kwargs['fields'] = self.fields
+        serializer_class = UserSerializer
+        kwargs['fields'] = ['profile', 'budget', 'username']
 
         return serializer_class(*args, **kwargs)
 
     def get(self, request, *args, **kwargs):
         self.user = request.user
 
-        if kwargs.get('mk') == 'profiles':
-            self.serializer_class = UserProfileSerializer
-            model = UserProfile
-            self.fields = ['name', 'net_worth']
-        elif kwargs.get('mk') == 'budgets':
-            self.serializer_class = UserBudgetSerializer
-            model = UserBudget
-            self.fields = ['amount', 'modified']
-        else:
-
-            return Response({
-                "status": "400",
-                "message": "Bad request"
-            })
-        # still works when using only kwargs instead of self.kwargs but not work outside of the get method
-        start = self.kwargs.get('sk')
-        end = self.kwargs.get('ek')
-        if not start and not end:
-            if model == UserProfile:
-                self.queryset = model.objects.filter(
-                    user__in=auth_user.objects.order_by('budget__-amount'))[:10]
-            else:
-                self.queryset = model.objects.order_by('-amount')[:10]
-        elif (start and end):
-            filters = {}
-            filters['budget__amount__gte'] = start
-            filters['budget__amount__lte'] = end
-            self.queryset = model.objects.filter(
-                user__in=auth_user.objects.filter(**filters))
-        else:
-
-            return Response({
-                "status": "400",
-                "message": "Bad request"
-            })
         if AdviserPermission().has_permission(self, request):
+
+            self.queryset = auth_user.objects.order_by(
+                '-budget__amount').select_related('profile', 'budget')[:10]
+
+            return self.list(request, *args, **kwargs)
+
+        else:
+
+            self.queryset = auth_user.objects.filter(
+                budget__user=request.user).select_related('profile', 'budget')
+
+            return self.list(request, *args, **kwargs)
+
+
+class BudgetRangeAPI(GenericAPIView, ListModelMixin):
+    authentication_classes = [TokenAuthentication]
+    permission_classes = [IsAuthenticated]
+
+    def get_serializer(self, *args, **kwargs):
+        serializer_class = UserSerializer
+        kwargs['fields'] = ['profile', 'budget', 'username']
+
+        return serializer_class(*args, **kwargs)
+
+    def post(self, request, *args, **kwargs):
+        self.user = request.user
+
+        if AdviserPermission().has_permission(self, request):
+
+            range_info = request.data
+            min = range_info["min"]
+            max = range_info["max"]
+            filters = {}
+            filters['budget__amount__gte'] = min
+            filters['budget__amount__lte'] = max
+            self.queryset = auth_user.objects.all().select_related(
+                'profile', 'budget').filter(**filters)
+
             return self.list(request, *args, **kwargs)
         else:
-            query = model.objects.filter(user=request.user)
-            serializer = self.get_serializer(query, many=True)
-            return JsonResponse(serializer.data, safe=False)
+
+            self.queryset = auth_user.objects.filter(
+                budget__user=request.user).select_related('profile', 'budget')
+
+            return self.list(request, *args, **kwargs)

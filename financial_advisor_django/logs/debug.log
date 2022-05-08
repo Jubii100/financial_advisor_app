@@ -11,3 +11,1440 @@ INFO 2022-05-06 11:37:55,963 autoreload 14236 10752 C:\Users\jubii\Desktop\web_d
 INFO 2022-05-06 11:37:56,722 autoreload 3568 20280 Watching for file changes with StatReloader
 INFO 2022-05-06 11:38:23,315 autoreload 3568 20280 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
 INFO 2022-05-06 11:38:24,038 autoreload 18168 2536 Watching for file changes with StatReloader
+INFO 2022-05-07 11:40:10,664 autoreload 12128 15620 Watching for file changes with StatReloader
+INFO 2022-05-07 11:40:16,091 basehttp 12128 19996 "GET /admin/ HTTP/1.1" 200 7896
+WARNING 2022-05-07 11:40:17,739 log 12128 19996 Not Found: /favicon.ico
+WARNING 2022-05-07 11:40:17,739 basehttp 12128 19996 "GET /favicon.ico HTTP/1.1" 404 2853
+INFO 2022-05-07 12:09:25,804 basehttp 12128 3888 "GET /user/financial_data/budgets/ HTTP/1.1" 200 62
+INFO 2022-05-07 12:10:02,536 basehttp 12128 8576 "GET /admin/auth/user/ HTTP/1.1" 200 13221
+INFO 2022-05-07 12:10:02,709 basehttp 12128 8576 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-07 12:10:07,250 basehttp 12128 8576 "GET /admin/users/userprofile/ HTTP/1.1" 200 9032
+INFO 2022-05-07 12:10:07,393 basehttp 12128 8576 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-07 12:10:09,966 basehttp 12128 8576 "GET /admin/users/userprofile/30/change/ HTTP/1.1" 200 11198
+INFO 2022-05-07 12:10:10,079 basehttp 12128 8576 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-07 12:10:15,304 basehttp 12128 8576 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 9016
+INFO 2022-05-07 12:10:23,808 basehttp 12128 8576 "GET /admin/users/userprofile/ HTTP/1.1" 200 9032
+INFO 2022-05-07 12:10:23,924 basehttp 12128 8576 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-07 12:10:27,143 basehttp 12128 8576 "GET /admin/users/userprofile/30/change/ HTTP/1.1" 200 11198
+INFO 2022-05-07 12:10:27,248 basehttp 12128 8576 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-07 12:10:47,402 basehttp 12128 3888 "GET /user/financial_data/budgets/ HTTP/1.1" 200 549
+INFO 2022-05-07 12:11:52,556 basehttp 12128 3888 "GET /user/financial_data/profiles/ HTTP/1.1" 200 375
+INFO 2022-05-07 12:23:33,028 basehttp 12128 3888 "GET /user/financial_data/profiles/800/1800/ HTTP/1.1" 200 77
+INFO 2022-05-07 12:23:54,624 basehttp 12128 3888 "GET /user/financial_data/budgets/800/1800/ HTTP/1.1" 200 114
+INFO 2022-05-07 12:57:53,534 autoreload 9264 6180 Watching for file changes with StatReloader
+INFO 2022-05-07 12:58:14,331 basehttp 9264 18608 "GET /admin/ HTTP/1.1" 200 7896
+INFO 2022-05-07 12:58:14,417 basehttp 9264 18720 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3401
+INFO 2022-05-07 12:58:14,437 basehttp 9264 18712 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2022-05-07 12:58:14,478 basehttp 9264 18716 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18575
+INFO 2022-05-07 12:58:14,479 basehttp 9264 18612 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
+INFO 2022-05-07 12:58:14,500 basehttp 9264 18608 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2022-05-07 12:58:14,504 basehttp 9264 18608 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2022-05-07 12:58:14,532 basehttp 9264 18608 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2022-05-07 12:58:14,533 basehttp 9264 18716 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2022-05-07 12:58:14,533 basehttp 9264 18612 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2022-05-07 12:58:14,650 basehttp 9264 18716 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2022-05-07 12:58:14,658 basehttp 9264 18608 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2022-05-07 12:58:14,707 basehttp 9264 18612 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+WARNING 2022-05-07 12:58:14,973 log 9264 18612 Not Found: /favicon.ico
+WARNING 2022-05-07 12:58:14,974 basehttp 9264 18612 "GET /favicon.ico HTTP/1.1" 404 2853
+INFO 2022-05-07 13:08:57,602 basehttp 9264 20364 "GET /user/external/ HTTP/1.1" 200 13038
+WARNING 2022-05-07 13:09:54,126 log 9264 20364 Unauthorized: /user/logout/
+WARNING 2022-05-07 13:09:54,127 basehttp 9264 20364 "GET /user/logout/ HTTP/1.1" 401 27
+INFO 2022-05-07 13:10:07,080 basehttp 9264 18480 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 9016
+INFO 2022-05-07 13:10:07,144 basehttp 9264 18480 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6932
+INFO 2022-05-07 13:10:07,147 basehttp 9264 7276 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2022-05-07 13:10:07,159 basehttp 9264 18480 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2022-05-07 13:10:07,165 basehttp 9264 21076 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2022-05-07 13:10:07,179 basehttp 9264 20868 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+INFO 2022-05-07 13:10:07,204 basehttp 9264 19760 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2022-05-07 13:10:07,226 basehttp 9264 16096 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2022-05-07 13:10:07,226 basehttp 9264 7276 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2022-05-07 13:10:07,251 basehttp 9264 18480 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2022-05-07 13:10:07,324 basehttp 9264 18480 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2022-05-07 13:10:07,369 basehttp 9264 18480 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2022-05-07 13:10:24,973 basehttp 9264 20364 "GET /user/logout/ HTTP/1.1" 200 24
+WARNING 2022-05-07 13:10:36,654 log 9264 20364 Unauthorized: /user/logout/
+WARNING 2022-05-07 13:10:36,655 basehttp 9264 20364 "GET /user/logout/ HTTP/1.1" 401 27
+WARNING 2022-05-07 13:10:59,696 log 9264 20364 Unauthorized: /user/external/
+WARNING 2022-05-07 13:10:59,697 basehttp 9264 20364 "GET /user/external/ HTTP/1.1" 401 27
+WARNING 2022-05-07 13:11:08,711 log 9264 20364 Unauthorized: /user/financial_data/budgets/800/1800/
+WARNING 2022-05-07 13:11:08,712 basehttp 9264 20364 "GET /user/financial_data/budgets/800/1800/ HTTP/1.1" 401 27
+INFO 2022-05-07 13:15:39,231 autoreload 9264 6180 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-07 13:15:42,519 autoreload 20768 9392 Watching for file changes with StatReloader
+INFO 2022-05-08 04:19:21,343 autoreload 20768 9392 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 04:19:24,104 autoreload 18704 10596 Watching for file changes with StatReloader
+INFO 2022-05-08 07:14:56,457 autoreload 11272 9304 Watching for file changes with StatReloader
+WARNING 2022-05-08 07:15:00,975 log 11272 19640 Unauthorized: /user/financial_data/range/
+WARNING 2022-05-08 07:15:00,975 basehttp 11272 19640 "POST /user/financial_data/range/?min=800&max=1800 HTTP/1.1" 401 27
+WARNING 2022-05-08 07:15:18,015 log 11272 9264 Not Found: /admin
+WARNING 2022-05-08 07:15:18,015 basehttp 11272 9264 "GET /admin HTTP/1.1" 404 2829
+INFO 2022-05-08 07:15:24,037 basehttp 11272 9264 "GET /admin/ HTTP/1.1" 200 7896
+INFO 2022-05-08 07:15:24,065 basehttp 11272 9264 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2022-05-08 07:15:24,081 basehttp 11272 17980 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3401
+INFO 2022-05-08 07:15:24,206 basehttp 11272 17980 "GET /admin/ HTTP/1.1" 200 7896
+INFO 2022-05-08 07:15:24,230 basehttp 11272 17980 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2022-05-08 07:15:24,253 basehttp 11272 9264 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2022-05-08 07:15:24,253 basehttp 11272 17980 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2022-05-08 07:15:24,264 basehttp 11272 3288 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2022-05-08 07:15:24,274 basehttp 11272 9264 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2022-05-08 07:15:24,302 basehttp 11272 3288 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2022-05-08 07:15:24,311 basehttp 11272 17980 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2022-05-08 07:15:26,626 basehttp 11272 17980 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 8783
+INFO 2022-05-08 07:15:26,648 basehttp 11272 9264 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2022-05-08 07:15:26,722 basehttp 11272 9264 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2022-05-08 07:15:26,724 basehttp 11272 728 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2022-05-08 07:15:26,725 basehttp 11272 9264 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2022-05-08 07:15:26,730 basehttp 11272 17980 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6932
+INFO 2022-05-08 07:15:26,731 basehttp 11272 3288 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+INFO 2022-05-08 07:15:26,736 basehttp 11272 19060 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2022-05-08 07:15:26,742 basehttp 11272 16180 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2022-05-08 07:15:26,754 basehttp 11272 728 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2022-05-08 07:15:26,768 basehttp 11272 728 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2022-05-08 07:15:26,787 basehttp 11272 728 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+WARNING 2022-05-08 07:15:49,172 log 11272 19640 Method Not Allowed: /user/financial_data/range/
+WARNING 2022-05-08 07:15:49,172 basehttp 11272 19640 "POST /user/financial_data/range/?min=800&max=1800 HTTP/1.1" 405 41
+WARNING 2022-05-08 07:17:56,154 log 11272 19640 Method Not Allowed: /user/financial_data/range/
+WARNING 2022-05-08 07:17:56,155 basehttp 11272 19640 "POST /user/financial_data/range/ HTTP/1.1" 405 41
+INFO 2022-05-08 07:18:32,814 autoreload 11272 9304 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\urls.py changed, reloading.
+INFO 2022-05-08 07:18:33,565 autoreload 20048 14924 Watching for file changes with StatReloader
+ERROR 2022-05-08 07:18:37,637 log 20048 13208 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2022-05-08 07:18:37,643 basehttp 20048 13208 "POST /user/financial_data/range/ HTTP/1.1" 500 79698
+INFO 2022-05-08 07:21:02,036 autoreload 20048 14924 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:21:02,749 autoreload 14472 17492 Watching for file changes with StatReloader
+INFO 2022-05-08 07:23:58,861 autoreload 14472 17492 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:23:59,592 autoreload 18204 14052 Watching for file changes with StatReloader
+ERROR 2022-05-08 07:24:07,274 log 18204 5084 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'amount'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 218, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `amount` on serializer `UserBudgetSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'amount'.
+ERROR 2022-05-08 07:24:07,276 basehttp 18204 5084 "POST /user/financial_data/range/ HTTP/1.1" 500 121439
+INFO 2022-05-08 07:24:53,149 autoreload 18204 14052 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:24:53,865 autoreload 20944 20912 Watching for file changes with StatReloader
+ERROR 2022-05-08 07:24:59,418 log 20944 12484 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'amount'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `amount` on serializer `UserBudgetSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'amount'.
+ERROR 2022-05-08 07:24:59,422 basehttp 20944 12484 "POST /user/financial_data/range/ HTTP/1.1" 500 120947
+INFO 2022-05-08 07:26:57,560 autoreload 20944 20912 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:26:58,287 autoreload 8912 9724 Watching for file changes with StatReloader
+ERROR 2022-05-08 07:27:01,466 log 8912 10616 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'amount'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `amount` on serializer `UserBudgetSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'amount'.
+ERROR 2022-05-08 07:27:01,468 basehttp 8912 10616 "POST /user/financial_data/range/ HTTP/1.1" 500 121623
+INFO 2022-05-08 07:27:31,663 autoreload 8912 9724 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:27:32,375 autoreload 7312 11348 Watching for file changes with StatReloader
+INFO 2022-05-08 07:29:00,221 autoreload 7312 11348 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:29:00,941 autoreload 6884 6396 Watching for file changes with StatReloader
+INFO 2022-05-08 07:29:17,378 autoreload 6884 6396 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:29:18,103 autoreload 16872 4400 Watching for file changes with StatReloader
+ERROR 2022-05-08 07:29:26,857 log 16872 11272 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 218, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `password` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'password'.
+ERROR 2022-05-08 07:29:26,860 basehttp 16872 11272 "POST /user/financial_data/range/ HTTP/1.1" 500 126018
+INFO 2022-05-08 07:30:17,722 autoreload 16872 4400 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:30:18,449 autoreload 19816 20176 Watching for file changes with StatReloader
+INFO 2022-05-08 07:30:27,550 autoreload 19816 20176 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:30:28,270 autoreload 8800 2660 Watching for file changes with StatReloader
+INFO 2022-05-08 07:30:31,691 basehttp 8800 20044 "POST /user/financial_data/range/ HTTP/1.1" 200 2
+INFO 2022-05-08 07:32:31,971 autoreload 8800 2660 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:32:32,680 autoreload 9908 6436 Watching for file changes with StatReloader
+INFO 2022-05-08 07:32:45,054 basehttp 9908 20152 "POST /user/financial_data/range/ HTTP/1.1" 200 2
+INFO 2022-05-08 07:32:47,164 basehttp 9908 20152 "POST /user/financial_data/range/ HTTP/1.1" 200 2
+INFO 2022-05-08 07:33:26,991 autoreload 9908 6436 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:33:27,728 autoreload 9212 14240 Watching for file changes with StatReloader
+INFO 2022-05-08 07:33:29,229 basehttp 9212 20048 "POST /user/financial_data/range/ HTTP/1.1" 200 2
+INFO 2022-05-08 07:33:55,747 autoreload 9212 14240 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:33:56,454 autoreload 10356 9912 Watching for file changes with StatReloader
+INFO 2022-05-08 07:34:00,939 basehttp 10356 7276 "POST /user/financial_data/range/ HTTP/1.1" 200 2
+INFO 2022-05-08 07:34:03,889 basehttp 10356 7276 "POST /user/financial_data/range/ HTTP/1.1" 200 2
+INFO 2022-05-08 07:34:49,759 autoreload 10356 9912 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:34:50,472 autoreload 2236 17384 Watching for file changes with StatReloader
+INFO 2022-05-08 07:34:53,011 basehttp 2236 7428 "POST /user/financial_data/range/ HTTP/1.1" 200 2
+INFO 2022-05-08 07:35:23,782 autoreload 2236 17384 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:35:24,558 autoreload 1756 18444 Watching for file changes with StatReloader
+INFO 2022-05-08 07:35:26,400 basehttp 1756 20932 "POST /user/financial_data/range/ HTTP/1.1" 200 2
+INFO 2022-05-08 07:35:41,353 autoreload 1756 18444 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:35:42,074 autoreload 9292 19832 Watching for file changes with StatReloader
+INFO 2022-05-08 07:35:50,352 basehttp 9292 16520 "POST /user/financial_data/range/ HTTP/1.1" 200 2
+INFO 2022-05-08 07:36:14,367 autoreload 9292 19832 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:36:15,098 autoreload 11792 8508 Watching for file changes with StatReloader
+INFO 2022-05-08 07:36:16,229 basehttp 11792 21456 "POST /user/financial_data/range/ HTTP/1.1" 200 2
+INFO 2022-05-08 07:36:29,412 autoreload 11792 8508 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:36:30,149 autoreload 11920 9160 Watching for file changes with StatReloader
+INFO 2022-05-08 07:36:41,462 autoreload 11920 9160 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:36:42,279 autoreload 19696 14868 Watching for file changes with StatReloader
+INFO 2022-05-08 07:36:48,167 basehttp 19696 10700 "POST /user/financial_data/range/ HTTP/1.1" 200 2
+INFO 2022-05-08 07:37:05,169 autoreload 19696 14868 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:37:05,884 autoreload 12292 16124 Watching for file changes with StatReloader
+ERROR 2022-05-08 07:37:07,544 log 12292 19724 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `password` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'password'.
+ERROR 2022-05-08 07:37:07,548 basehttp 12292 19724 "POST /user/financial_data/range/ HTTP/1.1" 500 127059
+INFO 2022-05-08 07:37:58,197 autoreload 12292 16124 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:37:58,947 autoreload 6024 1348 Watching for file changes with StatReloader
+ERROR 2022-05-08 07:38:00,736 log 6024 16356 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `password` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'password'.
+ERROR 2022-05-08 07:38:00,740 basehttp 6024 16356 "POST /user/financial_data/range/ HTTP/1.1" 500 127443
+INFO 2022-05-08 07:38:34,716 autoreload 6024 1348 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:38:35,513 autoreload 7452 19040 Watching for file changes with StatReloader
+ERROR 2022-05-08 07:38:37,754 log 7452 16224 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'function' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `password` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `method` instance.
+Original exception text was: 'function' object has no attribute 'password'.
+ERROR 2022-05-08 07:38:37,764 basehttp 7452 16224 "POST /user/financial_data/range/ HTTP/1.1" 500 126230
+INFO 2022-05-08 07:42:14,054 autoreload 8992 20264 Watching for file changes with StatReloader
+ERROR 2022-05-08 07:42:19,413 log 8992 8020 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'password'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `password` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'password'.
+ERROR 2022-05-08 07:42:19,417 basehttp 8992 8020 "POST /user/financial_data/range/ HTTP/1.1" 500 127443
+INFO 2022-05-08 07:43:01,076 autoreload 8992 20264 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:43:01,835 autoreload 6132 7220 Watching for file changes with StatReloader
+ERROR 2022-05-08 07:43:04,927 log 6132 20228 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `UserProfileSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'name'.
+ERROR 2022-05-08 07:43:04,930 basehttp 6132 20228 "POST /user/financial_data/range/ HTTP/1.1" 500 124905
+INFO 2022-05-08 07:44:38,305 autoreload 6132 7220 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:44:39,058 autoreload 13176 20676 Watching for file changes with StatReloader
+INFO 2022-05-08 07:44:42,546 basehttp 13176 13900 "POST /user/financial_data/range/ HTTP/1.1" 200 375
+INFO 2022-05-08 07:47:45,684 autoreload 13176 20676 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:47:46,457 autoreload 12640 15736 Watching for file changes with StatReloader
+INFO 2022-05-08 07:47:49,051 basehttp 12640 15428 "POST /user/financial_data/range/ HTTP/1.1" 200 7
+INFO 2022-05-08 07:48:11,452 autoreload 12640 15736 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:48:12,186 autoreload 19976 13004 Watching for file changes with StatReloader
+INFO 2022-05-08 07:48:16,566 basehttp 19976 12964 "POST /user/financial_data/range/ HTTP/1.1" 200 7
+INFO 2022-05-08 07:48:41,385 autoreload 19976 13004 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:48:42,277 autoreload 2196 6804 Watching for file changes with StatReloader
+INFO 2022-05-08 07:48:44,449 basehttp 2196 9852 "POST /user/financial_data/range/ HTTP/1.1" 200 34
+INFO 2022-05-08 07:49:16,732 autoreload 2196 6804 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:49:17,468 autoreload 17080 13788 Watching for file changes with StatReloader
+INFO 2022-05-08 07:49:18,671 basehttp 17080 9076 "POST /user/financial_data/range/ HTTP/1.1" 200 34
+INFO 2022-05-08 07:49:32,857 autoreload 17080 13788 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:49:33,599 autoreload 19492 12152 Watching for file changes with StatReloader
+INFO 2022-05-08 07:49:34,841 basehttp 19492 8640 "POST /user/financial_data/range/ HTTP/1.1" 200 110
+INFO 2022-05-08 07:49:50,051 autoreload 19492 12152 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:49:50,796 autoreload 18452 20080 Watching for file changes with StatReloader
+INFO 2022-05-08 07:49:52,341 basehttp 18452 2296 "POST /user/financial_data/range/ HTTP/1.1" 200 110
+INFO 2022-05-08 07:50:01,009 autoreload 18452 20080 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:50:01,719 autoreload 5104 18744 Watching for file changes with StatReloader
+INFO 2022-05-08 07:50:24,033 autoreload 5104 18744 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:50:24,795 autoreload 13012 16732 Watching for file changes with StatReloader
+INFO 2022-05-08 07:50:26,689 basehttp 13012 9168 "POST /user/financial_data/range/ HTTP/1.1" 200 110
+INFO 2022-05-08 07:51:13,270 autoreload 13012 16732 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:51:14,003 autoreload 2360 16620 Watching for file changes with StatReloader
+INFO 2022-05-08 07:51:15,144 basehttp 2360 6824 "POST /user/financial_data/range/ HTTP/1.1" 200 110
+INFO 2022-05-08 07:52:13,148 basehttp 2360 17340 "GET /admin/auth/user/ HTTP/1.1" 200 13221
+INFO 2022-05-08 07:52:13,187 basehttp 2360 12248 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2022-05-08 07:52:13,191 basehttp 2360 12248 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2022-05-08 07:52:13,202 basehttp 2360 17340 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 07:52:13,255 basehttp 2360 12248 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2022-05-08 07:52:15,544 basehttp 2360 12248 "GET /admin/auth/user/24/change/ HTTP/1.1" 200 18155
+INFO 2022-05-08 07:52:15,566 basehttp 2360 17340 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2022-05-08 07:52:15,570 basehttp 2360 16196 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+INFO 2022-05-08 07:52:15,571 basehttp 2360 12248 "GET /static/admin/css/forms.css HTTP/1.1" 200 8878
+INFO 2022-05-08 07:52:15,572 basehttp 2360 20260 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+INFO 2022-05-08 07:52:15,579 basehttp 2360 20772 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2022-05-08 07:52:15,586 basehttp 2360 20772 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2022-05-08 07:52:15,590 basehttp 2360 20772 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2022-05-08 07:52:15,597 basehttp 2360 20096 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 07:52:15,598 basehttp 2360 20772 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2022-05-08 07:52:15,672 basehttp 2360 20772 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2022-05-08 07:52:15,672 basehttp 2360 16196 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2022-05-08 07:52:15,673 basehttp 2360 12248 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2022-05-08 07:52:15,677 basehttp 2360 20260 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2022-05-08 07:52:15,689 basehttp 2360 20096 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2022-05-08 07:53:27,348 autoreload 2360 16620 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:53:28,097 autoreload 17948 19052 Watching for file changes with StatReloader
+INFO 2022-05-08 07:53:28,792 basehttp 17948 2040 "POST /user/financial_data/range/ HTTP/1.1" 200 110
+INFO 2022-05-08 07:53:29,944 basehttp 17948 2040 "POST /user/financial_data/range/ HTTP/1.1" 200 110
+INFO 2022-05-08 07:54:00,277 autoreload 17948 19052 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:54:00,997 autoreload 19592 18648 Watching for file changes with StatReloader
+INFO 2022-05-08 07:54:02,165 basehttp 19592 8144 "POST /user/financial_data/range/ HTTP/1.1" 200 110
+INFO 2022-05-08 07:54:13,272 autoreload 19592 18648 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:54:14,062 autoreload 19392 16224 Watching for file changes with StatReloader
+INFO 2022-05-08 07:54:16,323 basehttp 19392 8612 "POST /user/financial_data/range/ HTTP/1.1" 200 34
+INFO 2022-05-08 07:54:41,523 autoreload 19392 16224 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:54:42,298 autoreload 9156 20368 Watching for file changes with StatReloader
+INFO 2022-05-08 07:54:43,398 basehttp 9156 18120 "POST /user/financial_data/range/ HTTP/1.1" 200 34
+INFO 2022-05-08 07:54:44,725 basehttp 9156 18120 "POST /user/financial_data/range/ HTTP/1.1" 200 34
+INFO 2022-05-08 07:55:18,681 autoreload 9156 20368 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:55:19,390 autoreload 5056 6024 Watching for file changes with StatReloader
+INFO 2022-05-08 07:55:25,174 basehttp 5056 4812 "POST /user/financial_data/range/ HTTP/1.1" 200 34
+INFO 2022-05-08 07:56:19,052 autoreload 5056 6024 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:56:19,834 autoreload 21252 19220 Watching for file changes with StatReloader
+INFO 2022-05-08 07:56:21,437 basehttp 21252 2912 "POST /user/financial_data/range/ HTTP/1.1" 200 445
+INFO 2022-05-08 07:57:05,734 autoreload 21252 19220 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:57:06,436 autoreload 21080 18768 Watching for file changes with StatReloader
+INFO 2022-05-08 07:57:09,407 basehttp 21080 20772 "POST /user/financial_data/range/ HTTP/1.1" 200 77
+INFO 2022-05-08 07:58:06,167 autoreload 21080 18768 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:58:06,883 autoreload 9068 8640 Watching for file changes with StatReloader
+INFO 2022-05-08 07:58:33,085 autoreload 9068 8640 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:58:33,843 autoreload 20584 20004 Watching for file changes with StatReloader
+INFO 2022-05-08 07:58:57,516 autoreload 20584 20004 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 07:58:58,255 autoreload 5768 10024 Watching for file changes with StatReloader
+ERROR 2022-05-08 07:59:00,219 log 5768 20260 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'tuple' object has no attribute 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `username` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `tuple` instance.
+Original exception text was: 'tuple' object has no attribute 'username'.
+ERROR 2022-05-08 07:59:00,222 basehttp 5768 20260 "POST /user/financial_data/range/ HTTP/1.1" 500 131459
+INFO 2022-05-08 08:00:11,510 autoreload 5768 10024 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 08:00:12,254 autoreload 10664 2296 Watching for file changes with StatReloader
+INFO 2022-05-08 08:00:13,159 basehttp 10664 17672 "POST /user/financial_data/range/ HTTP/1.1" 200 77
+INFO 2022-05-08 08:00:51,792 autoreload 10664 2296 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 08:00:52,514 autoreload 18120 21040 Watching for file changes with StatReloader
+ERROR 2022-05-08 08:00:53,342 log 18120 20284 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'tuple' object has no attribute 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `username` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `tuple` instance.
+Original exception text was: 'tuple' object has no attribute 'username'.
+ERROR 2022-05-08 08:00:53,344 basehttp 18120 20284 "POST /user/financial_data/range/ HTTP/1.1" 500 130407
+INFO 2022-05-08 08:04:00,050 autoreload 18120 21040 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 08:04:00,910 autoreload 4696 6668 Watching for file changes with StatReloader
+ERROR 2022-05-08 08:04:02,393 log 4696 1008 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'tuple' object has no attribute 'username'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `username` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `tuple` instance.
+Original exception text was: 'tuple' object has no attribute 'username'.
+ERROR 2022-05-08 08:04:02,395 basehttp 4696 1008 "POST /user/financial_data/range/ HTTP/1.1" 500 130268
+INFO 2022-05-08 08:11:20,920 autoreload 4696 6668 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 08:11:21,654 autoreload 668 408 Watching for file changes with StatReloader
+INFO 2022-05-08 08:11:22,290 basehttp 668 18396 "POST /user/financial_data/range/ HTTP/1.1" 200 77
+INFO 2022-05-08 08:12:21,175 autoreload 668 408 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 08:12:21,878 autoreload 8892 18436 Watching for file changes with StatReloader
+INFO 2022-05-08 08:12:25,930 basehttp 8892 1908 "POST /user/financial_data/range/ HTTP/1.1" 200 41
+INFO 2022-05-08 08:52:11,369 autoreload 8892 18436 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\serializers.py changed, reloading.
+INFO 2022-05-08 08:52:12,155 autoreload 1960 9264 Watching for file changes with StatReloader
+INFO 2022-05-08 08:53:46,283 autoreload 1960 9264 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\serializers.py changed, reloading.
+INFO 2022-05-08 08:53:46,999 autoreload 18212 20080 Watching for file changes with StatReloader
+INFO 2022-05-08 08:53:54,966 autoreload 18212 20080 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\serializers.py changed, reloading.
+INFO 2022-05-08 08:53:55,672 autoreload 16596 20116 Watching for file changes with StatReloader
+INFO 2022-05-08 08:54:38,240 autoreload 16596 20116 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\serializers.py changed, reloading.
+INFO 2022-05-08 08:54:38,963 autoreload 17572 12096 Watching for file changes with StatReloader
+INFO 2022-05-08 08:56:07,713 autoreload 17572 12096 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\serializers.py changed, reloading.
+INFO 2022-05-08 08:56:08,435 autoreload 11916 7972 Watching for file changes with StatReloader
+INFO 2022-05-08 08:57:21,623 autoreload 9156 16488 Watching for file changes with StatReloader
+INFO 2022-05-08 08:57:25,650 basehttp 9156 19372 "POST /user/financial_data/range/ HTTP/1.1" 200 41
+INFO 2022-05-08 08:58:15,008 autoreload 9156 16488 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\serializers.py changed, reloading.
+INFO 2022-05-08 08:58:15,767 autoreload 6332 6656 Watching for file changes with StatReloader
+INFO 2022-05-08 08:58:37,556 autoreload 6332 6656 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 08:58:38,315 autoreload 19000 2288 Watching for file changes with StatReloader
+ERROR 2022-05-08 08:58:40,383 log 19000 18748 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    serializer = UserSerializer(
+TypeError: UserSerializer() takes no arguments
+ERROR 2022-05-08 08:58:40,385 basehttp 19000 18748 "POST /user/financial_data/range/ HTTP/1.1" 500 93318
+INFO 2022-05-08 08:59:29,959 autoreload 19000 2288 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\serializers.py changed, reloading.
+INFO 2022-05-08 08:59:30,682 autoreload 20084 16220 Watching for file changes with StatReloader
+ERROR 2022-05-08 08:59:32,699 log 20084 11380 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `profile` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'profile'.
+ERROR 2022-05-08 08:59:32,701 basehttp 20084 11380 "POST /user/financial_data/range/ HTTP/1.1" 500 137228
+INFO 2022-05-08 09:00:13,517 autoreload 20084 16220 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:00:14,235 autoreload 7940 17652 Watching for file changes with StatReloader
+ERROR 2022-05-08 09:00:16,223 log 7940 20416 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `profile` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'profile'.
+ERROR 2022-05-08 09:00:16,233 basehttp 7940 20416 "POST /user/financial_data/range/ HTTP/1.1" 500 134649
+INFO 2022-05-08 09:01:28,120 autoreload 7940 17652 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\serializers.py changed, reloading.
+INFO 2022-05-08 09:01:28,886 autoreload 20124 17660 Watching for file changes with StatReloader
+ERROR 2022-05-08 09:01:31,888 log 20124 2040 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 97, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `profile` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'profile'.
+ERROR 2022-05-08 09:01:31,893 basehttp 20124 2040 "POST /user/financial_data/range/ HTTP/1.1" 500 134649
+INFO 2022-05-08 09:05:24,041 autoreload 20124 17660 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:05:24,751 autoreload 12052 8824 Watching for file changes with StatReloader
+INFO 2022-05-08 09:05:26,724 basehttp 12052 5892 "POST /user/financial_data/range/ HTTP/1.1" 200 1315
+INFO 2022-05-08 09:06:22,358 autoreload 12052 8824 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:06:23,112 autoreload 8532 17732 Watching for file changes with StatReloader
+INFO 2022-05-08 09:06:43,620 autoreload 8532 17732 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:06:44,344 autoreload 18180 9080 Watching for file changes with StatReloader
+ERROR 2022-05-08 09:06:52,010 log 18180 4852 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 217, in post
+    serializer = UserSerializer(
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 122, in __new__
+    return cls.many_init(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 149, in many_init
+    child_serializer = cls(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 116, in __init__
+    super().__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'fields'
+ERROR 2022-05-08 09:06:52,012 basehttp 18180 4852 "POST /user/financial_data/range/ HTTP/1.1" 500 110205
+INFO 2022-05-08 09:08:06,139 autoreload 18180 9080 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\serializers.py changed, reloading.
+INFO 2022-05-08 09:08:06,867 autoreload 18344 18676 Watching for file changes with StatReloader
+INFO 2022-05-08 09:08:42,473 autoreload 18344 18676 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:08:43,198 autoreload 11092 19196 Watching for file changes with StatReloader
+INFO 2022-05-08 09:08:43,816 basehttp 11092 2360 "POST /user/financial_data/range/ HTTP/1.1" 200 430
+INFO 2022-05-08 09:09:20,889 autoreload 11092 19196 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:09:21,616 autoreload 11576 17652 Watching for file changes with StatReloader
+INFO 2022-05-08 09:09:25,107 basehttp 11576 3304 "POST /user/financial_data/range/ HTTP/1.1" 200 709
+INFO 2022-05-08 09:09:49,789 autoreload 11576 17652 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:09:50,570 autoreload 20072 3844 Watching for file changes with StatReloader
+INFO 2022-05-08 09:09:51,950 basehttp 20072 9228 "POST /user/financial_data/range/ HTTP/1.1" 200 320
+INFO 2022-05-08 09:10:07,257 autoreload 20072 3844 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:10:09,051 autoreload 19304 6316 Watching for file changes with StatReloader
+INFO 2022-05-08 09:10:16,573 autoreload 19304 6316 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:10:18,167 autoreload 18728 10356 Watching for file changes with StatReloader
+INFO 2022-05-08 09:11:27,183 autoreload 18728 10356 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\serializers.py changed, reloading.
+INFO 2022-05-08 09:11:27,892 autoreload 6752 4772 Watching for file changes with StatReloader
+INFO 2022-05-08 09:11:43,249 basehttp 6752 19460 "POST /user/financial_data/range/ HTTP/1.1" 200 186
+INFO 2022-05-08 09:11:56,125 autoreload 6752 4772 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:11:56,852 autoreload 20584 2128 Watching for file changes with StatReloader
+INFO 2022-05-08 09:22:40,210 autoreload 20584 2128 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:22:40,953 autoreload 19304 1952 Watching for file changes with StatReloader
+ERROR 2022-05-08 09:22:43,303 log 19304 20716 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `profile` on serializer `UserSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'profile'."
+ERROR 2022-05-08 09:22:43,305 basehttp 19304 20716 "POST /user/financial_data/range/ HTTP/1.1" 500 133784
+INFO 2022-05-08 09:23:39,801 autoreload 19304 1952 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:23:40,527 autoreload 1436 15736 Watching for file changes with StatReloader
+ERROR 2022-05-08 09:23:43,131 log 1436 14704 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `profile` on serializer `UserSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'profile'."
+ERROR 2022-05-08 09:23:43,133 basehttp 1436 14704 "POST /user/financial_data/range/ HTTP/1.1" 500 133783
+ERROR 2022-05-08 09:23:44,860 log 1436 14704 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `profile` on serializer `UserSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'profile'."
+ERROR 2022-05-08 09:23:44,861 basehttp 1436 14704 "POST /user/financial_data/range/ HTTP/1.1" 500 133783
+INFO 2022-05-08 09:24:13,943 autoreload 1436 15736 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:24:14,664 autoreload 19244 17520 Watching for file changes with StatReloader
+ERROR 2022-05-08 09:24:15,367 log 19244 17800 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `profile` on serializer `UserSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'profile'."
+ERROR 2022-05-08 09:24:15,369 basehttp 19244 17800 "POST /user/financial_data/range/ HTTP/1.1" 500 142003
+ERROR 2022-05-08 09:24:16,574 log 19244 17800 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `profile` on serializer `UserSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'profile'."
+ERROR 2022-05-08 09:24:16,576 basehttp 19244 17800 "POST /user/financial_data/range/ HTTP/1.1" 500 142003
+INFO 2022-05-08 09:24:24,826 autoreload 19244 17520 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:24:25,535 autoreload 19068 3324 Watching for file changes with StatReloader
+ERROR 2022-05-08 09:24:32,829 log 19068 18564 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'profile'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 219, in post
+    return Response(serializer.data)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `profile` on serializer `UserSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'profile'."
+ERROR 2022-05-08 09:24:32,832 basehttp 19068 18564 "POST /user/financial_data/range/ HTTP/1.1" 500 133783
+INFO 2022-05-08 09:24:39,990 autoreload 19068 3324 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:24:40,750 autoreload 20560 20052 Watching for file changes with StatReloader
+INFO 2022-05-08 09:24:42,806 basehttp 20560 18940 "POST /user/financial_data/range/ HTTP/1.1" 200 186
+INFO 2022-05-08 09:31:27,933 autoreload 20560 20052 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:31:28,649 autoreload 10200 7764 Watching for file changes with StatReloader
+INFO 2022-05-08 09:31:32,837 basehttp 10200 14344 "POST /user/financial_data/range/ HTTP/1.1" 200 7
+INFO 2022-05-08 09:32:35,665 autoreload 10200 7764 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:32:36,413 autoreload 19352 18208 Watching for file changes with StatReloader
+INFO 2022-05-08 09:32:38,293 basehttp 19352 21340 "POST /user/financial_data/range/ HTTP/1.1" 200 7
+INFO 2022-05-08 09:32:39,922 basehttp 19352 21340 "POST /user/financial_data/range/ HTTP/1.1" 200 7
+INFO 2022-05-08 09:33:20,386 autoreload 19352 18208 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:33:21,116 autoreload 18136 3236 Watching for file changes with StatReloader
+INFO 2022-05-08 09:33:22,847 basehttp 18136 2420 "POST /user/financial_data/range/ HTTP/1.1" 200 186
+INFO 2022-05-08 09:33:37,628 autoreload 18136 3236 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:33:38,365 autoreload 14924 12764 Watching for file changes with StatReloader
+INFO 2022-05-08 09:33:42,690 basehttp 14924 18744 "POST /user/financial_data/range/ HTTP/1.1" 200 186
+INFO 2022-05-08 09:33:43,814 basehttp 14924 18744 "POST /user/financial_data/range/ HTTP/1.1" 200 186
+INFO 2022-05-08 09:33:53,899 autoreload 14924 12764 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:33:54,599 autoreload 3000 21232 Watching for file changes with StatReloader
+INFO 2022-05-08 09:34:12,008 basehttp 3000 5892 "POST /user/financial_data/range/ HTTP/1.1" 200 277
+INFO 2022-05-08 09:34:41,706 autoreload 3000 21232 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\serializers.py changed, reloading.
+INFO 2022-05-08 09:34:42,528 autoreload 17768 20184 Watching for file changes with StatReloader
+INFO 2022-05-08 09:34:43,437 basehttp 17768 20028 "POST /user/financial_data/range/ HTTP/1.1" 200 277
+INFO 2022-05-08 09:35:39,865 autoreload 17768 20184 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:35:40,588 autoreload 8412 16720 Watching for file changes with StatReloader
+INFO 2022-05-08 09:35:43,431 basehttp 8412 17836 "POST /user/financial_data/range/ HTTP/1.1" 200 1186
+INFO 2022-05-08 09:36:41,357 autoreload 8412 16720 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:36:42,075 autoreload 20056 3364 Watching for file changes with StatReloader
+INFO 2022-05-08 09:36:43,978 basehttp 20056 18396 "POST /user/financial_data/range/ HTTP/1.1" 200 1186
+INFO 2022-05-08 09:37:07,156 autoreload 20056 3364 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:37:07,924 autoreload 19472 8820 Watching for file changes with StatReloader
+INFO 2022-05-08 09:37:31,611 autoreload 19472 8820 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:37:32,365 autoreload 19252 16488 Watching for file changes with StatReloader
+INFO 2022-05-08 09:37:33,250 basehttp 19252 19004 "POST /user/financial_data/range/ HTTP/1.1" 200 277
+INFO 2022-05-08 09:38:11,951 autoreload 19252 16488 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:38:12,709 autoreload 13852 20580 Watching for file changes with StatReloader
+INFO 2022-05-08 09:38:13,878 basehttp 13852 17384 "POST /user/financial_data/range/ HTTP/1.1" 200 277
+INFO 2022-05-08 09:38:15,553 basehttp 13852 17384 "POST /user/financial_data/range/ HTTP/1.1" 200 277
+INFO 2022-05-08 09:38:51,155 basehttp 13852 17384 "POST /user/financial_data/range/ HTTP/1.1" 200 617
+INFO 2022-05-08 09:40:51,323 basehttp 13852 17384 "POST /user/financial_data/range/ HTTP/1.1" 200 617
+INFO 2022-05-08 09:41:37,433 autoreload 13852 20580 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:41:38,152 autoreload 5404 17572 Watching for file changes with StatReloader
+INFO 2022-05-08 09:41:40,429 basehttp 5404 1960 "POST /user/financial_data/range/ HTTP/1.1" 200 617
+INFO 2022-05-08 09:42:00,328 basehttp 5404 1960 "POST /user/financial_data/range/ HTTP/1.1" 200 617
+INFO 2022-05-08 09:43:25,732 basehttp 5404 1960 "POST /user/financial_data/range/ HTTP/1.1" 200 186
+INFO 2022-05-08 09:43:44,004 basehttp 5404 1960 "POST /user/financial_data/range/ HTTP/1.1" 200 94
+INFO 2022-05-08 09:44:01,942 basehttp 5404 1960 "POST /user/financial_data/range/ HTTP/1.1" 200 188
+INFO 2022-05-08 09:44:14,571 basehttp 5404 1960 "POST /user/financial_data/range/ HTTP/1.1" 200 279
+INFO 2022-05-08 09:44:51,035 basehttp 5404 1960 "POST /user/financial_data/range/ HTTP/1.1" 200 893
+INFO 2022-05-08 09:45:05,781 basehttp 5404 1960 "POST /user/financial_data/range/ HTTP/1.1" 200 802
+INFO 2022-05-08 09:45:32,357 autoreload 5404 17572 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:45:33,086 autoreload 14956 9092 Watching for file changes with StatReloader
+INFO 2022-05-08 09:45:37,696 basehttp 14956 8588 "POST /user/financial_data/range/ HTTP/1.1" 200 802
+INFO 2022-05-08 09:46:09,602 autoreload 14956 9092 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:46:10,316 autoreload 19628 19068 Watching for file changes with StatReloader
+INFO 2022-05-08 09:46:38,278 autoreload 19628 19068 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:46:39,025 autoreload 7440 9356 Watching for file changes with StatReloader
+INFO 2022-05-08 09:47:11,282 autoreload 7440 9356 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:47:11,988 autoreload 21196 11720 Watching for file changes with StatReloader
+INFO 2022-05-08 09:49:04,968 autoreload 21196 11720 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:49:05,681 autoreload 20200 8820 Watching for file changes with StatReloader
+INFO 2022-05-08 09:50:09,291 autoreload 20200 8820 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 09:50:09,983 autoreload 2040 2168 Watching for file changes with StatReloader
+INFO 2022-05-08 10:03:44,605 autoreload 2040 2168 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 10:03:45,370 autoreload 2896 21396 Watching for file changes with StatReloader
+INFO 2022-05-08 10:03:59,632 autoreload 2896 21396 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 10:04:00,352 autoreload 5648 20124 Watching for file changes with StatReloader
+INFO 2022-05-08 10:04:37,696 autoreload 5648 20124 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 10:04:38,407 autoreload 3468 8824 Watching for file changes with StatReloader
+INFO 2022-05-08 10:04:43,202 autoreload 3468 8824 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 10:04:43,970 autoreload 10204 18216 Watching for file changes with StatReloader
+INFO 2022-05-08 10:04:47,849 autoreload 10204 18216 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 10:04:48,610 autoreload 21372 19120 Watching for file changes with StatReloader
+INFO 2022-05-08 10:05:01,848 autoreload 21372 19120 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 10:05:02,564 autoreload 5048 18664 Watching for file changes with StatReloader
+INFO 2022-05-08 10:07:15,923 autoreload 5048 18664 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 10:07:16,816 autoreload 6508 11624 Watching for file changes with StatReloader
+ERROR 2022-05-08 10:07:37,580 log 6508 13180 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 216, in post
+    if AdviserPermission().has_permission(self, request):
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\permissions.py", line 8, in has_permission
+    user=request.user, advisor=True).exists()
+AttributeError: 'BudgetRangeAPI' object has no attribute 'user'
+ERROR 2022-05-08 10:07:37,582 basehttp 6508 13180 "POST /user/financial_data/range/ HTTP/1.1" 500 96018
+INFO 2022-05-08 10:11:10,647 autoreload 6508 11624 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 10:11:11,392 autoreload 17980 20968 Watching for file changes with StatReloader
+INFO 2022-05-08 10:11:53,621 autoreload 17980 20968 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 10:11:55,065 autoreload 20772 2360 Watching for file changes with StatReloader
+ERROR 2022-05-08 10:11:57,897 log 20772 9616 Internal Server Error: /user/financial_data/range/
+Traceback (most recent call last):
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py", line 231, in post
+    self.queryset = auth_user.objects.filter(
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\query.py", line 974, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\query.py", line 992, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\query.py", line 999, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\sql\query.py", line 1375, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\sql\query.py", line 1396, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\sql\query.py", line 1271, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\sql\query.py", line 1099, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "G:\Anaconda3\envs\django_vue\lib\site-packages\django\db\models\sql\query.py", line 1522, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: auth_token, budget, date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, password, profile, user_permissions, username
+ERROR 2022-05-08 10:11:57,913 basehttp 20772 9616 "POST /user/financial_data/range/ HTTP/1.1" 500 136740
+INFO 2022-05-08 10:13:06,652 autoreload 20772 2360 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 10:13:07,440 autoreload 17328 9188 Watching for file changes with StatReloader
+INFO 2022-05-08 10:13:10,162 basehttp 17328 4696 "POST /user/financial_data/range/ HTTP/1.1" 200 92
+INFO 2022-05-08 10:15:14,672 autoreload 17328 9188 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 10:15:15,418 autoreload 5704 11024 Watching for file changes with StatReloader
+INFO 2022-05-08 10:22:25,551 autoreload 5704 11024 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\views.py changed, reloading.
+INFO 2022-05-08 10:22:26,289 autoreload 11624 3340 Watching for file changes with StatReloader
+INFO 2022-05-08 10:23:42,502 autoreload 11624 3340 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\urls.py changed, reloading.
+INFO 2022-05-08 10:23:43,250 autoreload 11340 8424 Watching for file changes with StatReloader
+INFO 2022-05-08 10:23:53,370 autoreload 11340 8424 C:\Users\jubii\Desktop\web_dev_projects\smart_financial_advisor\financial_advisor_app\financial_advisor_django\users\urls.py changed, reloading.
+INFO 2022-05-08 10:23:54,068 autoreload 16032 20432 Watching for file changes with StatReloader
+WARNING 2022-05-08 10:24:24,775 log 16032 19472 Unauthorized: /user/financial_data/top10/
+WARNING 2022-05-08 10:24:24,776 basehttp 16032 19472 "GET /user/financial_data/top10/ HTTP/1.1" 401 27
+INFO 2022-05-08 10:24:37,479 basehttp 16032 7284 "GET /admin/users/userprofile/ HTTP/1.1" 200 9032
+INFO 2022-05-08 10:24:37,534 basehttp 16032 7284 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 10:24:40,298 basehttp 16032 7284 "GET /admin/users/userprofile/34/change/ HTTP/1.1" 200 11206
+INFO 2022-05-08 10:24:40,343 basehttp 16032 7284 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 10:24:42,999 basehttp 16032 7284 "GET /admin/users/userprofile/ HTTP/1.1" 200 9032
+INFO 2022-05-08 10:24:45,306 basehttp 16032 7284 "GET /admin/users/userprofile/32/change/ HTTP/1.1" 200 11193
+INFO 2022-05-08 10:24:45,358 basehttp 16032 7284 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 10:24:47,554 basehttp 16032 7284 "GET /admin/users/userprofile/ HTTP/1.1" 200 9032
+INFO 2022-05-08 10:24:49,175 basehttp 16032 7284 "GET /admin/users/userprofile/30/change/ HTTP/1.1" 200 11198
+INFO 2022-05-08 10:24:49,225 basehttp 16032 7284 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 10:24:52,880 basehttp 16032 7284 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 8783
+INFO 2022-05-08 10:25:10,786 basehttp 16032 19472 "GET /user/financial_data/top10/ HTTP/1.1" 200 897
+INFO 2022-05-08 10:25:54,134 basehttp 16032 7284 "GET /admin/users/userprofile/ HTTP/1.1" 200 9032
+INFO 2022-05-08 10:25:54,177 basehttp 16032 7284 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 10:25:55,944 basehttp 16032 7284 "GET /admin/users/userprofile/30/change/ HTTP/1.1" 200 11198
+INFO 2022-05-08 10:25:56,009 basehttp 16032 7284 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 10:25:59,104 basehttp 16032 7284 "POST /admin/users/userprofile/30/change/ HTTP/1.1" 302 0
+INFO 2022-05-08 10:25:59,191 basehttp 16032 7284 "GET /admin/users/userprofile/ HTTP/1.1" 200 9240
+INFO 2022-05-08 10:25:59,242 basehttp 16032 7284 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 10:26:04,664 basehttp 16032 19472 "GET /user/financial_data/top10/ HTTP/1.1" 200 93
+INFO 2022-05-08 10:26:13,777 basehttp 16032 7284 "GET /admin/users/userprofile/ HTTP/1.1" 200 9032
+INFO 2022-05-08 10:26:13,828 basehttp 16032 7284 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 10:26:16,644 basehttp 16032 7284 "GET /admin/users/userprofile/30/change/ HTTP/1.1" 200 11190
+INFO 2022-05-08 10:26:16,692 basehttp 16032 7284 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 10:26:20,201 basehttp 16032 7284 "POST /admin/users/userprofile/30/change/ HTTP/1.1" 302 0
+INFO 2022-05-08 10:26:20,410 basehttp 16032 7284 "GET /admin/users/userprofile/ HTTP/1.1" 200 9240
+INFO 2022-05-08 10:26:20,459 basehttp 16032 7284 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-05-08 10:26:24,910 basehttp 16032 19472 "GET /user/financial_data/top10/ HTTP/1.1" 200 897
